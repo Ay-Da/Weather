@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/style.css">
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1><i class="fas fa-cloud-sun-rain"></i> <span class="bold">Weather</span> </h1>
+    </nav>
+
+    <div class="container-fluid main-div">
+
+        <!-- Search Div-->
+        <div class="row">
+            <div id="search-box" class="col-lg-3 col-md-12 col-sm-12">
+                <h2>Search for a City:</h2>
+
+                <!-- Search Bar -->
+                <div class="input-group mb-3">
+                    <form id="search-form" class="form-inline"></form>
+                    <input id="search-input" type="text" class="form-control">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="search-button"><i
+                                class="fas fa-search"></i></button>
+                    </div>
+                    </form>
+                </div>
+
+                <!--List of Cities-->
+                <div id="city-list">
+                    <ul class="list-group" id="list-group">
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Weather Div-->
+            <div id="weather-box" class="col-lg-9 col-md-12 col-sm-12">
+
+                <!-- Searched City Current Weather Div-->
+                <div id="city-box">
+                </div>
+
+                <!-- Five Day Forecast-->
+                <div id="five-day-box">
+                    <br>
+                    <h3 class="bold">5-Day Forecast:</h3>
+                    <br>
+                    <div class="five-day-row">
+                        <div class="row">
+                            <!-- Five Day Weather Cards-->
+                            <div class="col-1"></div>
+                            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+                                <div class="card">
+                                    <div id="div0" class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+                                <div class="card">
+                                    <div id="div1" class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+                                <div class="card">
+                                    <div id="div2" class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+                                <div class="card">
+                                    <div id="div3" class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-12 text-center">
+                                <div class="card">
+                                    <div id="div4" class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Made with ❤ by <a href="https://github.com/Ay-Da">Aymen Daboussi</a></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="Assets/script.js"></script>
+
+</body>
+</html>

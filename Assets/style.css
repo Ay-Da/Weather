@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #1f1f1f;
+}
+
+.navbar {
+  padding: 32px;
+  border-bottom: 1px solid #1f1f1f;
+  color: #fff;
+  background-color: #00308f;
+}
+
+#search-box {
+  padding: 16px 32px;
+  border-right: 1px solid #1f1f1f;
+}
+
+.list-group {
+  padding-top: 18px;
+}
+
+#weather-box {
+  padding: 32px;
+  background-image: linear-gradient(
+    to right top,
+    #dfe6e9,
+    #d9e8ed,
+    #d1ebf1,
+    #caedf3,
+    #c2f0f4
+  );
+}
+
+#city-box {
+  border: 1px solid #1f1f1f;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+#five-day-box {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #1f1f1f;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 16px;
+}
+
+.uvFavorable {
+  border: 1 px solid #1f1f1f;
+  border-radius: 16px;
+  background-color: lightgreen;
+  width: fit-content;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0 auto;
+}
+
+.uvModerate {
+  border: 1 px solid #1f1f1f;
+  border-radius: 16px;
+  background-color: yellow;
+  width: fit-content;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0 auto;
+}
+
+.uvSevere {
+  border: 1 px solid #1f1f1f;
+  border-radius: 16px;
+  background-color: tomato;
+  width: fit-content;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 32px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #00308f;
+  position:sticky;
+  margin: 0;
+}
+
+footer a,
+footer p {
+  color: #fff;
+}
