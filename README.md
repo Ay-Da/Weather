@@ -4,7 +4,7 @@ A weather that provides current and future weather forecasts. Utilizes OpenWeath
 
 <h1> Link : </h1>
 
-<li> Online <a href="https://ay-da.github.io/Weather/"> Snake </a> Weather </li>
+<li> Online <a href="https://ay-da.github.io/Weather/"> Weather </a> app </li>
 <h1>Screenshots </h1>
 
 <a href="https://i.ibb.co/9H4PppL/Weather.jpg"><img src="https://i.ibb.co/9H4PppL/Weather.jpg" alt="shopping-list" border="0"></a><br />
